@@ -4,28 +4,52 @@
 <html>
     <head>
         <meta charset='UTF-8'>
-        <title>Page Title</title>
+        <title>Starter Page</title>
         <meta name='keywords' content='HTML, CSS, JavaScript'>
         <meta name='author' content='Dominykas Juodvalkis'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="style.css">
+        <script src="functions.js" defer></script>
     </head>
     <body>
         <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="services.html">Services</a></li>
-            </ul>
-        </nav>
+            <a class="logo" href="index.html">
+                <img id="logo" src="Images/logo.jpg" alt="DJ">
+            </a>
+            <nav id="navmenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="form.html">Form</a></li>
+                </ul>
+            </nav>
+            <div id="clock"></div>
         </header>
 
-        <h1>Starter Page</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
-            but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+        <br>
+
+        <section>
+            <h1 class="chapter">Starter Page</h1>
+            <p class="chapter_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+                but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+        </section>
+
+        <br>
+
+        <button id="scrollUp"><img id="arrow" src="Images/up-arrow.jpg" alt="up-arrow"></button>
+
+        <footer id="footer">
+            <div id="footer-div">
+                <h2 id="creator">Creator: Dominykas Juodvalkis</h2>
+                <p id="footer-text">Email: juodvalkisdj@gmail.com</p>
+                <a href="https://www.linkedin.com/in/d-juodvalkis/"><img src="Images/linkedIn.jpg" alt="linkedin link"></a>
+                <a href="https://www.facebook.com/domas.adomas.98"><img src="Images/facebook.jpg" alt="facebook link"></a>
+            </div>
+        </footer>
 
     </body>
 </html>

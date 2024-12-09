@@ -4,32 +4,56 @@
 <html>
     <head>
         <meta charset='UTF-8'>
-        <title>Page Title</title>
+        <title>Services</title>
         <meta name='keywords' content='HTML, CSS, JavaScript'>
         <meta name='author' content='Dominykas Juodvalkis'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="style.css">
+        <script src="functions.js" defer></script>
     </head>
     <body>
         <header>
-            <nav>
+            <a class="logo" href="index.html">
+                <img id="logo" src="Images/logo.jpg" alt="DJ">
+            </a>
+            <nav id="navmenu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="resume.html">Resume</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="services.html">Services</a></li>
+                    <li><a href="form.html">Form</a></li>
                 </ul>
             </nav>
+            <div id="clock"></div>
         </header>
         
-        <h1>Services</h1>
-        <video width="560" height="315" controls>
-            <source src="Videos/K!llING CAR ENGINE - ENGINE BLOW UP COMPILATION - Idiots In Cars EP 18(2).mp4" type="video/mp4">
-        </video>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/omW7it_faYI?si=0G4wCqKuyPTadqhh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <audio controls>
-            <source src="Sound/UI Sounds_ Futuristic - A well organized library of hi-tech sound effects for your user interfaces..mp3" type="audio/mpeg">
-        </audio>
+        <br>
+
+        <section>
+            <h1 class="chapter">Services</h1>
+            <video width="560" height="315" controls>
+                <source src="Videos/K!llING CAR ENGINE - ENGINE BLOW UP COMPILATION - Idiots In Cars EP 18(2).mp4" type="video/mp4">
+            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/omW7it_faYI?si=0G4wCqKuyPTadqhh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <audio controls>
+                <source src="Sound/UI Sounds_ Futuristic - A well organized library of hi-tech sound effects for your user interfaces..mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <br>
+
+        <button id="scrollUp"><img id="arrow" src="Images/up-arrow.jpg" alt="up-arrow"></button>
+
+        <footer id="footer">
+            <div id="footer-div">
+                <h2 id="creator">Creator: Dominykas Juodvalkis</h2>
+                <p id="footer-text">Email: juodvalkisdj@gmail.com</p>
+                <a href="https://www.linkedin.com/in/d-juodvalkis/"><img src="Images/linkedIn.jpg" alt="linkedin link"></a>
+                <a href="https://www.facebook.com/domas.adomas.98"><img src="Images/facebook.jpg" alt="facebook link"></a>
+            </div>
+        </footer>
 
     </body>
 </html>
