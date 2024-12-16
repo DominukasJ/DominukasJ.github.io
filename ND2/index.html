@@ -1,0 +1,36 @@
+<!--Dominykas Juodvalkis EDIf-23/1-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <title>SmartWatch</title>
+    <meta name='keywords' content='HTML, CSS, JavaScript'>
+    <meta name='author' content='Dominykas Juodvalkis'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="smartwatch">
+        <div class="screen">
+            <div id="time" class="time">12:00</div>
+            <div id="weatherText" class="info-text"></div>
+            <div id="batteryStatus" class="info-text"></div>
+            <div id="heartRate" class="info-text"></div>
+            <div id="stepHistory" class="info-text"></div>
+            <div id="message" class="info-text"></div>
+            <div id="notification" class="info-text"></div>
+        </div>
+        <div class="menu">
+            <div class="menu-item" onclick="showTime()">🕒</div>
+            <div class="menu-item" onclick="startStepCounter()">👟</div>
+            <div class="menu-item" onclick="showWeather()">☀️</div>
+            <div class="menu-item" onclick="showBatteryStatus()">🔋</div>
+            <div class="menu-item" onclick="showHeartRate()">❤️</div>
+            <div class="menu-item" onclick="showNotification('New Message!')">💬</div>
+            <div class="menu-item" onclick="showStepHistory()">📊</div>
+        </div>
+    </div>
+    <script src="functions.js"></script>
+</body>
+</html>
